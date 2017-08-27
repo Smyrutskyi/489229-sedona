@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+  	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  	<link href="css/normalize.css" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
   <body>
   	
+  	
 
-  	<header>
-  		
-    	<nav> 
-    		<ul>
+
+  	<header class="main-header">
+  		<nav class="main-navigation"> 
+  			<a class="main-header-logo">
+    			<img src="img/logo.png" width="100" height="50" alt="Логотип Седоны">
+    		<ul class="site-navigation">
     			<li><a href="#">Информация</a></li>
     			<li><a href="#">Фото и видео</a></li>
     			<li><a href="#">Карта штата</a></li>
@@ -21,9 +27,8 @@
 
 
 
-
-	<main>
-		<div class="filters">
+	<main class="container">
+		<div class="filters-back-fon">
 			<form action="#" method="get">
 				
 				<div class="filters-type">
@@ -44,7 +49,7 @@
           			<div class="folters-header">Стоимость в сутки (Р):</div>
           			<label for="price-from">от</label><input type="range" id="price-from" type="number" value="0" min="0" max="5000" pattern="[0-9]*"></p>
           			<label for="price-to">до</label><input type="range" id="price-to" type="number" value="3000" min="0" max="5000" pattern="[0-9]*"></p>
-          			<button type="submit">Показать</button>  
+          			<button type="button" class="hotels-btn">Показать</button>  
           		</div>
           	</form>
         </div>
@@ -55,11 +60,16 @@
 
 
 		<section>
-			<div>
-				<p>Найдено: 3</p>
+			
+
+
+
+
+			<div class="filters-hotels, border-hr">
+				<h1>Найдено: 3</h1>
 				<p>Сортировка:</p>
 				<ul>
-					<li><a href="#">По цене</a></li>
+					<li><a class="current" href="#">По цене</a></li>
 					<li><a href="#">По типу</a></li>
 					<li><a href="#">По рейтингу</a></li>
 				</ul>
@@ -67,39 +77,42 @@
 			
 
 
+		
+
+
 		<div>	
 
 			<!-- БЛОК С КАРТИНКОЙ -->
 			<div class="photo">
-				<img src="#" width="" height="" alt="Amara Resort &amp; SPA">
+				<img src="#" width="" height="" alt="ТУТ ДОЛЖНО БЫТЬ ИЗОБРАЖЕНИЕAmara Resort &amp; SPA">
 			</div>
 			
 			
 			<!-- БЛОК С ОПИСАНИЕМ (В НЁМ ЕЩЁ 3 БЛОКА: ЗАГОЛОВОК, ТИП И ЦЕНА И ДВЕ ССЫЛКИ) -->
-			<div>
+			<div class="border-hr">
 				<div>
-					<a href="#">Amara Resort &amp; SPA</a>	
+					<a class="text-hotels" href="#">Amara Resort &amp; SPA</a>	
 				</div>		
 
-				<div>
+				<div class="text-hotels-grey">
 					<p>Гостиница</p>
 					<p>От 3500 Р.</p>
 				</div>
 				
 
 				<div>
-					<a href="#">Подробнее</a>
-					<a href="#">Забронировать</a>
+					<a class="blue-div" href="#">Подробнее</a>
+					<a class="brown-div" href="#">Забронировать</a>
 				</div>
 			</div>
 
 				<!-- БЛОК С РЕЙТИНГОМ. В НЁМ 2 БЛОКА: ВЕРХНИЙ СО ЗВЕЗДОЧКАМИ, НИЖНИЙ С ЦИФРОЙ. -->
-				<div>
+				<div class="border-hr">
 					<div class="stars">
 						<img src="#" alt="звездочки или как то через css">
 					</div>	
 					<div>			
-						<p>Рейтинг 8,5</p>
+						<p class="raiting-hotels">Рейтинг 8,5</p>
 					</div>
 				</div>
 		</div>
@@ -109,29 +122,29 @@
 
 
 
-			<div>	
+			<div class="border-hr">	
 
 			<!-- БЛОК С КАРТИНКОЙ -->
 			<div class="photo">
-				<img src="#" width="" height="" alt="Amara Resort &amp; SPA">
+				<img src="#" width="" height="" alt="КАРТИНКА ВТОРОГО ОТЕЛЯ">
 			</div>
 			
 			
 			<!-- БЛОК С ОПИСАНИЕМ (В НЁМ ЕЩЁ 3 БЛОКА: ЗАГОЛОВОК, ТИП И ЦЕНА И ДВЕ ССЫЛКИ) -->
 			<div>
 				<div>
-					<a href="#">Desert Quail Inn</a>	
+					<a class="text-hotels" href="#">Desert Quail Inn</a>	
 				</div>		
 
-				<div>
+				<div class="text-hotels-grey">
 					<p>Мотель</p>
 					<p>От 2000 Р.</p>
 				</div>
 				
 
 				<div>
-					<a href="#">Подробнее</a>
-					<a href="#">Забронировать</a>
+					<a class="blue-div" href="#">Подробнее</a>
+					<a class="brown-div" href="#">Забронировать</a>
 				</div>
 			</div>
 
@@ -141,7 +154,7 @@
 						<img src="#" alt="звездочки или как то через css">
 					</div>	
 					<div>			
-						<p>Рейтинг 8,9</p>
+						<p class="raiting-hotels">Рейтинг 8,9</p>
 					</div>
 				</div>
 		</div>
@@ -154,29 +167,29 @@
 
 
 
-			<div>	
+			<div class="border-hr">	
 
 			<!-- БЛОК С КАРТИНКОЙ -->
 			<div class="photo">
-				<img src="#" width="" height="" alt="Amara Resort &amp; SPA">
+				<img src="#" width="" height="" alt="ТРЕТИЙ ОТЕЛЬ КАРТИНКА">
 			</div>
 			
 			
 			<!-- БЛОК С ОПИСАНИЕМ (В НЁМ ЕЩЁ 3 БЛОКА: ЗАГОЛОВОК, ТИП И ЦЕНА И ДВЕ ССЫЛКИ) -->
 			<div>
 				<div>
-					<a href="#">Villas At Poco Diablo</a>	
+					<a class="text-hotels" href="#">Villas At Poco Diablo</a>	
 				</div>		
 
-				<div>
+				<div class="text-hotels-grey">
 					<p>Апартаменты</p>
 					<p>От 4000 Р.</p>
 				</div>
 				
 
 				<div>
-					<a href="#">Подробнее</a>
-					<a href="#">Забронировать</a>
+					<a class="blue-div" href="#">Подробнее</a>
+					<a class="brown-div" href="#">Забронировать</a>
 				</div>
 			</div>
 
@@ -186,7 +199,7 @@
 						<img src="#" alt="звездочки или как то через css">
 					</div>	
 					<div>			
-						<p>Рейтинг 9,2</p>
+						<p class="raiting-hotels">Рейтинг 9,2</p>
 					</div>
 				</div>
 		</div>
@@ -195,7 +208,7 @@
 
 
 
-	<!-- СДЕЛАНО -->
+	<!-- ФУТЕР -->
 
 	<footer>
 		<div>
