@@ -1,3 +1,4 @@
+/*СТИЛИ ДЛЯ СТРАНИЦ*/
 body {
 	margin: 0;
 	padding: 0;
@@ -8,52 +9,78 @@ body {
 	font-family: "PT Sans", Arial, sans-serif;
 	text-transform: uppercase;
 	color: #000;
-  background-color: #fff;
-  background-position: top center;
-  background-repeat: no-repeat;
+  background-color: #f2f2f2;
 }
-	
+.cover {
+  width: 1200px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
 
-.main-navigation {
+/*СТИЛИ ДЛЯ ШАПКИ ДВУХ СТРАНИЦ*/
+.main-header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   font-size: 14px;
   line-height: 20px;
+  padding-top: 17px;
+  padding-right: 6%;
+  padding-bottom: 19px;
+  padding-left: 6%;
 }
 
-.site-navigation {
-  list-style: none;
-  padding: 0;
-  background-color: #fff;
-}
+.main-navigation li {
+  display: inline-block;
+  width: 20%;
+  padding: 14px 20px 16px;
+  font-size: 14px;
+  line-height: 26px;
+  vertical-align: top;
+ }
 
-.site-navigation a {
+.main-navigation a {
+  display: block;
   color: #000;
   text-decoration: none;
-  cursor: pointer;
   font-weight: 700;
 }
 
-.site-navigation li {
-  display: inline-block;
-  width: 240px;
-  padding: 14px 20px 16px;
-  line-height: 26px;
-  vertical-align: top;
-  box-sizing: border-box;
-}
-
-.site-navigation a:hover {
+.main-navigation a:hover {
   color: #81b3d2;
 }
-.site-navigation a:active {
+.main-navigation a:active {
   color: #c1c1c1;
 }
+.main-navigation li:nth-child(3), .main-navigation li:nth-child(4) {
+  text-align: right;
+}
+.header-logo {
+  position: absolute;
+  left: 50%;
+  z-index: 20;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: -69px;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+}
 
-
-
-h1 {
+/*СТИЛИ ГЛАВНОЙ СТРАНИЦЫ*/
+.features h1 {
   font-size: 21px;
   line-height: 26px;
 }
@@ -112,8 +139,6 @@ input {
 
 
 /*ДРУГАЯ СТРАНИЦА (ОТЕЛИ)*/
-
-
 .filters-back-fon {
 background-image: url("../img/hotels-back.jpg");
 background-repeat: no-repeat;
