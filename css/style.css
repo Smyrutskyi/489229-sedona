@@ -407,6 +407,7 @@ input.booking-calendar-select:hover {
 .search-btn1:active {
   background: #5496bd;
   color: #629fc2;
+}
 
 
 
@@ -448,8 +449,7 @@ input.booking-calendar-select:hover {
 
 /*ДРУГАЯ СТРАНИЦА (ОТЕЛИ)*/
 .filters-back-fon {
-background-image: url("../img/hotels-back.jpg");
-background-repeat: no-repeat;
+background-image: url("../img/hotels-back.jpg") no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;  
@@ -549,14 +549,16 @@ color: #604e43;
 
 
 /* ФУТЕР */
+
 .main-footer {
   height: 120px;
   width: 1200px;
-  display: flex;
+  
 }
 .first-social {
   height: 23px;
   width: 139px;
+  padding-right: 50px;
   
   
 }
