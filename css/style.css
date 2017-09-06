@@ -551,20 +551,42 @@ color: #604e43;
 /* ФУТЕР */
 
 .main-footer {
+  display: flex;
   height: 120px;
   width: 1200px;
-  
+
 }
 .first-social {
   height: 23px;
   width: 139px;
   padding-right: 50px;
+  padding-top: 48px;
   
   
 }
 .insta {
 font-size: 21px;
 font-height: 26px;
-color: red;
+color: #000;
 font-weight: bold;
+padding-left: 131px;
+ 
+}
+
+.social-btn {
+  height: 50px;
+  width: 152px;
+  padding-left: 384px;
+  padding-top: 35px;
+}
+
+
+
+
+
+.academy {
+  width: 210px;
+  height: 47px;
+  padding-top: 39px;
+  padding-left: 150px;
 }
