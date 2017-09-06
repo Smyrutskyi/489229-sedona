@@ -16,7 +16,6 @@ body {
   background-color: #fff;
   box-shadow: 0 -5px 9px 2px #dbdbdb;
 }
-
 a {
   text-decoration: none;
 }
@@ -37,14 +36,12 @@ a {
   padding-left: 6%;
   font-size: 0;
 }
-
 .main-navigation li {
   display: inline-block;
   width: 20%;
   font-size: 14px;
   vertical-align: top;
 }
-
 .main-navigation a {
   display: block;
   color: #000;
@@ -54,7 +51,6 @@ a {
 .block-right {
   margin-right: 20%;
 }
-
 .main-navigation a:hover {
   color: #81b3d2;
 }
@@ -83,14 +79,12 @@ a {
   background: #d9eaf2 url("../img/welcome-sedona-bg.jpg") no-repeat;
   background-size: cover;
 }
-
 .promo img {
   display: block;
   width: 458px;
   height: 352px;
   margin: 0 auto;
 }
-
 .promo:after {
   content: "";
   position: absolute;
@@ -102,7 +96,6 @@ a {
   background: url("../img/zigzag.png") no-repeat;
   background-size: 100% 57px;
 }
-
 .features {
   padding-top: 60px;
   margin-bottom: 60px;
@@ -124,24 +117,42 @@ a {
 .block-features1 {
   width: 1200px;
   height: 256px;
+  display: flex;
 }
 .blue-div1 {
   background-color: #81b3d2;
   color: #fff;
   height: 256px;
   width: 400px;
-  float: left;
+  flex-direction: row;
+}
+.blue-center {
+  width: 283px;
+  height: 153px;
+  margin-left: 58px;
+  margin-top: 48px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.blue-center1 {
+  width: 309px;
+  height: 147px;
+  margin-left: 47px; 
+  margin-top: 47px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 .icon-features {
   margin-top: 56px;
   width: 1200px;
   height: 330px;
   overflow: auto;
+  display: flex;
 }
 .house {
   height: 330px; 
   width: 400px;
-  float: left;
+  flex-direction: row;
 }
 .canyon-cut{
 float: left;
@@ -151,76 +162,287 @@ float: left;
   color: #fff;
   height: 256px;
   width: 400px;
-  float: right;
+  flex-direction: row;
 }
 .after-features {
   margin-top: -60px;
   width: 1200px;
   height: 256px;
+  display: flex;
 }
-
 .grey-back {
   background-color: #eee;
   width: 1200px;
   height: 257px;
   overflow: auto;
+  padding-top: 48px;
 }
 .features3 {
   width: 400px;
   height: 256px;
   float: left;
 }
-
-
-
-
-
-
-
-
-.brown-div {
-  background-color: #766357;
-  color: #fff;
+.appointment {
+  width: 1200px;
+  height: 763px;
+  margin-top: 54px;
 }
-
-.text-bold {
-  font-weight: bold;
-}
-
-
-
-.search-hostel {
-  background-color: #766357;
-  color: #fff;
-  text-align: center;
-}
-
-input {
-  background-color: #f2f2f2;
-}
-
-.search-btn {
-   display: block;
-    width: 458px;
+.search-btn-host {
+    display: block;
+    width: 568px;
     margin: 0 auto;
-    margin-top: 54px;
-    padding: 14px 10px 15px;
-    box-sizing: border-box;
+    color: #ffffff;
+    padding: 30px 0 30px;
     font-size: 21px;
     line-height: 26px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #81b3d2;
-    border: none;
-    outline: none;
+    font-weight: bold;
+    text-decoration: none;
+    background: #766357;
 }
-.search-btn:hover {
-  background: #669ec0;
+.search-btn-host:hover {
+  background-color: #604e43;
+  color: #fff;
+}
+.search-btn-host:active {
+  background-color: #503e33;
+  color: #5e4e44;
+}
+.appointment a{
+  margin-top: 52px;
+}
+.appointment p{
+  padding-top: 35px;
 }
 
-.search-btn:active {
-  background: #5496bd;
+
 }
+.search {
+  width: 568px;
+  margin: 0 auto;
+  line-height: 24px;
+  text-align: center;
+  background-color: white;
+}
+.search h2 {
+  margin: 0;
+  margin-top: 56px;
+  margin-bottom: 29px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  color: #000000;
+}
+.search a {
+  display: block;
+  width: 568px;
+  margin-top: 47px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  text-decoration: none;
+  background-color: #766357;
+}
+.search a:hover {
+  background-color: #604e43;
+}
+.search a:active {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: #503e33;
+}
+.map {
+  position: relative;
+  height: 593px;
+}
+.map-canvas {
+  height: 593px;
+  background: #cbdda9 url("../img/map.jpg") no-repeat;
+  background-size: cover;
+  background-position: center 0px;
+}
+.map-canvas iframe {
+  width: 100%;
+  height: 593px;
+  border: 0;
+  background-size: cover;
+  background-position: center 0px;
+}
+
+
+
+
+/* ФОРМА ГДЕ ДОЛЖЕНЫ БЫТЬ ИКОНКИ */
+
+.form {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: none;
+  width: 458px;
+  padding: 55px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+  color: black;
+  background: white;
+  box-shadow: 0 2px 5px 0 #d4d2d2;
+  margin-left: -284px;
+}
+.form-show {
+  display: block;
+}
+input.booking-calendar{
+  width: 281px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 4px 15px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  }
+
+.icon-calendar {
+  background: url(..img/index-cal-icon-hvr.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  }
+.icon-calendar:hover {
+  }
+.icon-calendar:active {
+}
+
+.input-line {
+  margin-bottom: 10px;
+}
+
+.booking-calendar-minus-plus {
+  display: inline-block;
+  margin-left: 27px;
+  vertical-align: middle;
+  background: #f2f2f2;
+}
+
+.input-line-adults {
+  display: inline-block;
+  padding-right: 38px;
+}
+
+.input-line-adults .booking-calendar-minus-plus {
+  margin-left: 39px;
+}
+
+.form .btn-grey {
+  width: 38px;
+  height: 38px;
+  font-weight: normal;
+  font-size: 14px;
+  vertical-align: middle;
+  text-align: center;
+  color: #a9a9a9;
+  background: #f2f2f2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+input.booking-calendar-select {
+  width: 26px;
+  padding: 5px 1px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  outline: none;
+}
+
+input.booking-calendar:focus, input.booking-calendar-select:focus,
+input.booking-calendar:focus:hover, input.booking-calendar-select:focus:hover {
+  background: white;
+  border: 2px solid #e5e5e5;
+}
+
+input.booking-calendar:hover,
+input.booking-calendar-select:hover {
+  background: #ebebeb;
+  border: 2px solid #ebebeb;
+}
+
+
+
+
+
+/* CИНЯЯ КНОПКА ПОИСКА */
+.search-btn1 {
+  width: 458px;
+  margin-top: 54px;
+  padding: 14px 10px 15px;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #81b3d2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.search-btn1:hover {
+  background: #669ec0;
+}
+.search-btn1:active {
+  background: #5496bd;
+  color: #629fc2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -231,6 +453,8 @@ background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;  
+width: 1200px;
+height: 217px;
 }
 
 .hotels-btn {
@@ -315,4 +539,30 @@ color: #604e43;
 
 .border-hr {
   border-bottom-style: solid;
+}
+
+
+
+
+
+
+
+
+/* ФУТЕР */
+.main-footer {
+  height: 120px;
+  width: 1200px;
+  display: flex;
+}
+.first-social {
+  height: 23px;
+  width: 139px;
+  
+  
+}
+.insta {
+font-size: 21px;
+font-height: 26px;
+color: red;
+font-weight: bold;
 }
