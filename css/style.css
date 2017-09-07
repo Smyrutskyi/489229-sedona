@@ -26,6 +26,7 @@ a {
   margin: 0;
   padding: 0;
   font-size: 0;
+  height: 68px;
 }
 .main-navigation ul {
   margin: 0;
@@ -552,18 +553,25 @@ color: #604e43;
 
 .main-footer {
   display: flex;
+  flex-direction: row;
   height: 120px;
   width: 1200px;
 
 }
 .first-social {
-  height: 23px;
-  width: 139px;
-  padding-right: 50px;
+  height: 120px;
+  width: 400px;
+  padding-right: 216px;
   padding-top: 48px;
-  
-  
+  }
+
+.second-social {
+  width: 400px;
+  height: 120px; 
+  padding-top: 25px;
+  padding-right: 88px;
 }
+
 .insta {
 font-size: 21px;
 font-height: 26px;
@@ -574,19 +582,71 @@ padding-left: 131px;
 }
 
 .social-btn {
-  height: 50px;
-  width: 152px;
-  padding-left: 384px;
-  padding-top: 35px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 9px;
+  padding-right: 125px;
+}
+
+.social-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46px;
+  height: 48px;
+  font-size: 0;
+  background: url(../img/footer-icons.png) no-repeat;
+  margin: 0 6px 6px 0;
+}
+.social-icon.tw:hover {
+  background-position: 0 -49px;
+}
+.social-icon.tw:active{
+  background-position: 0 -98px;
+}
+
+
+.social-icon.fb{
+  background: url(../img/footer-icons.png) -47px 0 no-repeat;
+  width: 47px;
+}
+.social-icon.fb:hover{
+  background-position: -47px -49px;
+}
+.social-icon.fb:active{
+  background-position: -47px -98px;  
+}
+
+.social-icon.youtube {
+  background: url(../img/footer-icons.png) -95px 0 no-repeat;
+}
+
+.social-icon.youtube:hover{
+  background-position: -95px -49px;
+}
+.social-icon.youtube:active{
+  background-position: -95px -98px;
 }
 
 
 
 
-
-.academy {
-  width: 210px;
-  height: 47px;
-  padding-top: 39px;
-  padding-left: 150px;
+.academy  {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 120px;
 }
+
+.academy span {
+  display: block;
+  padding-left: 100px;
+}
+
+.academy a {
+  display: block;
+  font-size: 0;
+  padding-top: 38px;
+  background: url(../img/logo_name1.jpg) no-repeat;
+}
+
+
