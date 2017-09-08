@@ -332,17 +332,76 @@ input.booking-calendar{
 }
 
 .form .btn-grey {
+  display: inline-block;
   width: 38px;
   height: 38px;
-  font-weight: normal;
   font-size: 14px;
   vertical-align: middle;
   text-align: center;
-  color: #a9a9a9;
   background: #f2f2f2;
   border: none;
   outline: none;
   cursor: pointer;
+}
+.form .btn-grey .minusee{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: url(../img/minus1.png) no-repeat;
+}
+.form .btn-grey .minusee:hover{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: url(../img/minus2.png) no-repeat;
+}
+.form .btn-grey .minusee:active{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: url(../img/minus3.png) no-repeat;
+}
+
+.form .btn-grey .plusee{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: -6px;
+  padding: 0;
+  margin-left: -8px;
+  background: url(../img/plus1.png) no-repeat;
+}
+
+.form .btn-grey .plusee:hover{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: -6px;
+  padding: 0;
+  margin-left: -8px;
+  background: url(../img/plus2.png) no-repeat;
+}
+
+.form .btn-grey .plusee:active{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: -6px;
+  padding: 0;
+  margin-left: -8px;
+  background: url(../img/plus3.png) no-repeat;
 }
 
 input.booking-calendar-select {
@@ -378,6 +437,12 @@ input.booking-calendar-select:hover {
   width: 23px;
   height: 23px;
   background: url(../img/calendar1.png) no-repeat;
+  position: absolute;
+  left: 480px;
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+  font-size: 20px;
 }
 .input-line i:hover{
   display: inline-block;
@@ -391,22 +456,60 @@ input.booking-calendar-select:hover {
   height: 23px;
   background: url(../img/calendar3.png) no-repeat;
 }
-.icon-calendar {
-  position: absolute;
-  left: 480px;
-  margin: 0;
-  margin-top: 8px;
-  padding: 0;
-  font-size: 20px;
-}
+
+
+
+
+
+
+
 
 /* ЗНАЧКИ МИНУС И ПЛЮС*/
-.booking-calendar-minus-plus button {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  background-color: red;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
