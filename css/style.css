@@ -311,16 +311,6 @@ input.booking-calendar{
   outline: none;
   }
 
-.icon-calendar {
-  background: url(..img/index-cal-icon-hvr.png) no-repeat;
-  width: 25px;
-  height: 25px;
-  }
-.icon-calendar:hover {
-  }
-.icon-calendar:active {
-}
-
 .input-line {
   margin-bottom: 10px;
 }
@@ -355,8 +345,6 @@ input.booking-calendar{
   cursor: pointer;
 }
 
-
-
 input.booking-calendar-select {
   width: 26px;
   padding: 5px 1px;
@@ -383,6 +371,47 @@ input.booking-calendar-select:hover {
   background: #ebebeb;
   border: 2px solid #ebebeb;
 }
+
+/* ЗНАЧОК КАЛЕНДАРЯ */
+.input-line i{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url(../img/calendar1.png) no-repeat;
+}
+.input-line i:hover{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url(../img/calendar2.png) no-repeat;
+}
+.input-line i:active{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url(../img/calendar3.png) no-repeat;
+}
+.icon-calendar {
+  position: absolute;
+  left: 480px;
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* ЗНАЧКИ МИНУС И ПЛЮС*/
+.booking-calendar-minus-plus button {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+}
+
+
+
+
+
 
 
 
@@ -556,38 +585,33 @@ color: #604e43;
   flex-direction: row;
   height: 120px;
   width: 1200px;
-
 }
 .first-social {
   height: 120px;
   width: 400px;
   padding-right: 216px;
   padding-top: 48px;
-  }
-
+}
 .second-social {
   width: 400px;
   height: 120px; 
   padding-top: 25px;
-  padding-right: 88px;
+  padding-left: 34px;
+  padding-right: 54px;
 }
-
 .insta {
-font-size: 21px;
-font-height: 26px;
-color: #000;
-font-weight: bold;
-padding-left: 131px;
- 
+  font-size: 21px;
+  font-height: 26px;
+  color: #000;
+  font-weight: bold;
+  padding-left: 131px;
 }
-
 .social-btn {
   display: flex;
   flex-direction: row;
   padding-left: 9px;
   padding-right: 125px;
 }
-
 .social-icon {
   display: inline-block;
   vertical-align: middle;
@@ -603,8 +627,6 @@ padding-left: 131px;
 .social-icon.tw:active{
   background-position: 0 -98px;
 }
-
-
 .social-icon.fb{
   background: url(../img/footer-icons.png) -47px 0 no-repeat;
   width: 47px;
@@ -615,38 +637,40 @@ padding-left: 131px;
 .social-icon.fb:active{
   background-position: -47px -98px;  
 }
-
 .social-icon.youtube {
   background: url(../img/footer-icons.png) -95px 0 no-repeat;
 }
-
 .social-icon.youtube:hover{
   background-position: -95px -49px;
 }
 .social-icon.youtube:active{
   background-position: -95px -98px;
 }
-
-
-
-
 .academy  {
+  width: 300px;
+  height: 20px;
   display: flex;
-  flex-direction: row;
-  width: 400px;
-  height: 120px;
+  flex-direction:row;
+  padding-top: 41px;
+  padding-left: 40px;
 }
-
 .academy span {
-  display: block;
-  padding-left: 100px;
+  display: inline-table;
+  padding-right: 7px;
+  padding-top: 10px;
 }
-
 .academy a {
   display: block;
   font-size: 0;
-  padding-top: 38px;
   background: url(../img/logo_name1.jpg) no-repeat;
 }
-
-
+.academy a:hover {
+  display: block;
+  font-size: 0;
+  background: url(../img/logo_name2.jpg) no-repeat;
+}
+.academy a:active {
+  display: block;
+  font-size: 0;
+  background: url(../img/logo_name3.jpg) no-repeat;
+}
