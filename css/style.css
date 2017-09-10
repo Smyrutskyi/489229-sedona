@@ -334,13 +334,12 @@ input.booking-calendar{
   outline: none;
   cursor: pointer;
 }
-.form .btn-grey .minusee{
+.form .btn-grey  p{
   display: inline-block;
   width: 15px;
   height: 15px;
+  top: 196px;
   position: absolute;
-  margin: 0;
-  padding: 0;
   background: url(../img/minus1.png) no-repeat;
 }
 .form .btn-grey .minusee:hover{
@@ -348,8 +347,6 @@ input.booking-calendar{
   width: 15px;
   height: 15px;
   position: absolute;
-  margin: 0;
-  padding: 0;
   background: url(../img/minus2.png) no-repeat;
 }
 .form .btn-grey .minusee:active{
@@ -357,8 +354,6 @@ input.booking-calendar{
   width: 15px;
   height: 15px;
   position: absolute;
-  margin: 0;
-  padding: 0;
   background: url(../img/minus3.png) no-repeat;
 }
 .form .btn-grey .plusee{
@@ -366,8 +361,7 @@ input.booking-calendar{
   width: 15px;
   height: 15px;
   position: absolute;
-  margin-top: -6px;
-  padding: 0;
+  margin-top: 10px;
   margin-left: -8px;
   background: url(../img/plus1.png) no-repeat;
 }
@@ -376,7 +370,6 @@ input.booking-calendar{
   width: 15px;
   height: 15px;
   position: absolute;
-  margin-top: -6px;
   padding: 0;
   margin-left: -8px;
   background: url(../img/plus2.png) no-repeat;
@@ -386,8 +379,6 @@ input.booking-calendar{
   width: 15px;
   height: 15px;
   position: absolute;
-  margin-top: -6px;
-  padding: 0;
   margin-left: -8px;
   background: url(../img/plus3.png) no-repeat;
 }
