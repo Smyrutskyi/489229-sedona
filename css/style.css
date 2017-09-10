@@ -977,10 +977,21 @@ input.booking-calendar-select:hover {
 
 
 
+.stars-hotel {
+  
+  display: inline-block;
+  
+  background-color: red;
+  height: 20px;
+  width: 20px;
 
 
+}
 
 
+.stars span {
+  background-color: red;
+}
 
 
 
