@@ -836,6 +836,7 @@ input.booking-calendar-select:hover {
   display: flex;
   height: 152px;
 }
+
 .view-results a{
   color: :#000;
 }
@@ -918,7 +919,7 @@ input.booking-calendar-select:hover {
   font-style: 14px;
   font-height: 21px;
   position: relative;
-  top: 100px;
+  top: 90px;
   left: 555px;
 }
 
@@ -929,15 +930,21 @@ input.booking-calendar-select:hover {
   font-size: 21px;
   font-weight: bold;
   padding-left: 30px;
-  padding-top: 30px;
+  padding-top: 25px;
 }
+
+
+.size-hotels {
+  height: 32px;
+}
+
 
 .text-hotels-grey {
   display: flex;
   color: #000;
   font-size: 14px;
   font-height: 21px;
-  padding-top: 17px;
+  padding-top: 27px;
   padding-left: 30px;
 }
 
@@ -960,6 +967,7 @@ input.booking-calendar-select:hover {
 .hotels-2btns {
   display: flex;
   flex-direction:row;
+  margin-top: -5px;
 }
 .right-a {
   margin-left: 6px;
