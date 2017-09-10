@@ -486,7 +486,8 @@ input.booking-calendar-select:hover {
   box-sizing: border-box;
 }
 .one-fourth label{
-  padding-top: 8px;
+  padding-top: 4px;
+  padding-left: 40px;
 }
 .two-fourth input{
   color: #fff;
@@ -499,22 +500,18 @@ input.booking-calendar-select:hover {
 }
 .check label {
   position: relative;
-  margin-left: 40px;
   cursor: pointer;
-}
-.one-fourth:nth-child(2n) label {
-    margin-left: 42px;
+  background: url(../img/checkbox-off.png) no-repeat;
 }
 .check label::before {
-  content: '\2610';
+  background: url(../img/checkbox-off.png) no-repeat;
   position: absolute;
   left: -40px;
   top: 0;
-  font-family: "symbols-sedona";
   font-size: 26px;
 }
-.check input:checked + label::before {
-  content: '\2611';
+.check input:checked + label {
+  background: url(../img/checkbox-on.png) no-repeat;
 }
 .check input:disabled + label {
   color: #6a6a6a;
