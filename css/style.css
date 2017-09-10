@@ -612,6 +612,7 @@ input.booking-calendar-select:hover {
   border: 2px solid #ffffff;
   border-radius: 2px;
   outline: none;
+  color: #fff;
 }
 .filter-range .show-btn:hover {
   color: #000000;
@@ -874,6 +875,13 @@ input.booking-calendar-select:hover {
   flex-direction: row;
   height: 120px;
   width: 1200px;
+}
+.main-footer1 {
+  bottom: 0;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
 }
 .first-social {
   height: 120px;
