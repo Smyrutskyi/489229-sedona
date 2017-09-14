@@ -3,7 +3,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">    
+    <link href="css/style-min.css" rel="stylesheet">    
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
 </head>
@@ -35,9 +35,9 @@
                     <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
                 </div>
                 <div class="block-features1">
-                    <div class="blue-div1">
-                        <div class="blue-center">
-                            <h2>Настоящий городок</h2>
+                    <div class="features-hotels-one">
+                        <div class="align-hotels-features">
+                            <h2>Настоящий<br> городок</h2>
                             <p>-№1-</p>
                             <p>Седона - не атракцион для туристов,<br> там течет своя жизнь</p>
                         </div>
@@ -69,9 +69,9 @@
                     <div class="canyon-cut">
                         <img src="img/canyon-cut.jpg" width="800" height="256" alt="Мост дьявола">
                     </div>
-                    <div class="blue-div2">
-                        <div class="blue-center1">
-                            <h2>Там есть мост дьявола</h2>
+                    <div class="features-hotels-second">
+                        <div class="align-features-second">
+                            <h2>Там есть<br> мост дьявола</h2>
                             <p>-№2-</p>
                             <p>Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
                         </div>
@@ -113,28 +113,28 @@
                     <form action="/echo" method="GET">
 
                         <div class="input-line">
-                            <label for="ch1">Дата заезда: <i class="icon-calendar"></i> </label>
+                            <label for="ch1">Дата заезда: <i class="icon-calendar">Календарь</i> </label>
                             <input class="booking-calendar" name="checkin" type="text" placeholder="24 апреля 2014" id="ch1">
                         </div>
 
                         <div class="input-line">
-                            <label for="ch2">Дата выезда: <i class="icon-calendar"></i></label>
+                            <label for="ch2">Дата выезда: <i class="icon-calendar">Календарь</i></label>
                             <input class="booking-calendar" name="checkout" type="text" placeholder="4 июля 2014" id="ch2">
                         </div>
                         <div class="input-line">
                             <div class="input-line-adults">
                                 <label for="ch3">Взрослые:</label>
                                 <div class="booking-calendar-minus-plus">
-                                    <a class="btn-grey icon-minus"> <p class="minusee"></p></a>
+                                    <a class="btn-grey icon-minus"> <p class="minusee">Уменьшение количества</p></a>
                                     <input class="booking-calendar-select" name="adults" type="text" pattern="[0-9]" value="2" id="ch3"/>
-                                    <a class="btn-grey icon-plus"> <p class="plusee"></p></a>
+                                    <a class="btn-grey icon-plus"> <p class="plusee">Увеличение количества</p></a>
                                 </div>
                             </div>
                             <label for="ch4">Дети:</label>
                             <div class="booking-calendar-minus-plus">
-                                <a class="btn-grey icon-minus"> <p class="minusee"></p></a>
+                                <a class="btn-grey icon-minus"> <p class="minusee">Уменьшение количества</p></a>
                                 <input class="booking-calendar-select" name="children" type="text" value="0" id="ch4"/>
-                                <a class="btn-grey icon-plus"><p class="plusee"></p></a>
+                                <a class="btn-grey icon-plus"><p class="plusee">Увеличение количества</p></a>
                             </div>
                         </div>
 
