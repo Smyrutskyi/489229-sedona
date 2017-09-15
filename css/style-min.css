@@ -6,7 +6,9 @@ a{ text-decoration:none}
 .main-navigation ul{ margin:0;  padding:0;  padding-top:17px;  padding-right:6%;  padding-bottom:19px;  padding-left:6%;  font-size:0}
 .main-navigation li{ display:inline-block;  width:20%;  font-size:14px;  vertical-align:top}
 .main-navigation a{ display:block;  color:#000;  font-weight:bold;  text-decoration:none}
-.block-right{ margin-right:20%}
+.two-nav{ padding-left:27px}
+.three-nav{padding-left:150px}
+.for-nav{ padding-left:30px}
 .main-navigation a:hover{ color:#81b3d2}
 .main-navigation a:active{ color:#c1c1c1}
 .main-navigation li:nth-child(3), .main-navigation li:nth-child(4){ text-align:right}

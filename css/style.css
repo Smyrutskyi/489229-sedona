@@ -48,8 +48,14 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
-.block-right {
-  margin-right: 20%;
+.two-nav {
+  padding-left: 27px;
+}
+.three-nav {
+padding-left: 150px;
+}
+.for-nav {
+  padding-left: 30px;
 }
 .main-navigation a:hover {
   color: #81b3d2;
