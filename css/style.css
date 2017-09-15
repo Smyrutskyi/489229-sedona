@@ -96,17 +96,18 @@ a {
   background-size: 100% 57px;
 }
 .features {
-  padding-top: 60px;
+  padding-top: 47px;
   margin-bottom: 60px;
 }
 .features p {
   font-size: 14px;
   font-height: 26px;
-  color: #a0a0a0;
+  color: #000;
+  margin-top: -8px;
 }
 .features h1 {
   font-size: 21px;
-  line-height: 26px;
+  font-height: 26px;
   margin-bottom: 40px;
 }
 .container {
@@ -120,9 +121,10 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  margin-top: -9px;
 }
 .features-hotels-one {
-  line-height: 30px;
+  line-height: 25px;
   background-color: #81b3d2;
   color: #fff;
   min-height: 256px;
@@ -159,9 +161,14 @@ a {
   min-height: 330px; 
   width: 400px;
   flex-direction: row;
+  line-height: 26px;
 }
 .canyon-cut{
-float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
 }
 .features-hotels-second {
   line-height: 27px;
@@ -179,18 +186,31 @@ float: left;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  flex-direction: row;
 }
 .grey-back {
   background-color: #eee;
   width: 1200px;
-  min-height: 257px;
+  height: 235px;
+  line-height: 25px;
+  max-height: 100%;
   overflow: auto;
-  padding-top: 48px;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
 }
 .features3 {
   width: 400px;
-  min-height: 256px;
-  float: left;
+  min-height: 200px;
+  max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
 }
 .appointment {
   width: 1200px;
@@ -481,7 +501,7 @@ input.booking-calendar-select:hover {
 /* CИНЯЯ КНОПКА ПОИСКА */
 .search-btn1 {
   width: 458px;
-  margin-top: 54px;
+  margin-top: 45px;
   padding: 14px 10px 15px;
   font-size: 21px;
   line-height: 26px;
@@ -511,6 +531,7 @@ input.booking-calendar-select:hover {
 }
 .filter {
   width: 100%;
+  height: 215px;
   color: #ffffff;
   background: #4b769e url("../img/hotels-back.jpg") no-repeat 50% 20%;
 }
@@ -525,8 +546,9 @@ input.booking-calendar-select:hover {
   display: inline-block;
   width: 25%;
   vertical-align: top;
-  padding: 27px 10px 30px;
+  padding: 15px 10px 30px;
   padding-left: 26px;
+  line-height: 20px;
   box-sizing: border-box;
 }
 .one-fourth label{
@@ -564,7 +586,7 @@ input.booking-calendar-select:hover {
 .two-fourth {
   display: inline-block;
   width: 50%;
-  padding-top: 26px;
+  padding-top: 15px;
   vertical-align: top;
   box-sizing: border-box;
 }
@@ -648,7 +670,7 @@ input.booking-calendar-select:hover {
 .filter-range .show-btn {
   display: block;
   margin: 32px auto 33px;
-  padding: 6px 33px;
+  padding: 6px 30px;
   line-height: 20px;
   text-transform: uppercase;
   background: none;
@@ -770,7 +792,7 @@ input.booking-calendar-select:hover {
   min-height: 152px;
 }
 .view-results a{
-  color: #000;
+  color: white;
 }
 .photo {
   padding-top: 30px;
@@ -836,24 +858,25 @@ input.booking-calendar-select:hover {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  width: 112px;
-  min-height: 28px;
+  width: 108px;
+  height: 27px;
   background-color: #f2f2f2;
   color: #828282;
   font-style: 14px;
   font-height: 21px;
   position: relative;
-  top: 24px;
-  left: 555px;
+  top: 33px;
+  left: 522px;
 }
-.text-hotels {
+.size-hotels a {
   display: block;
   text-decoration: none;
-  color: #000;
+  color: black;
   font-size: 21px;
+  line-height: 5px;
   font-weight: bold;
   padding-left: 30px;
-  padding-top: 25px;
+  padding-top: 37px;
 }
 .size-hotels {
   min-height: 32px;
@@ -865,13 +888,14 @@ input.booking-calendar-select:hover {
   display: flex;
   color: #000;
   font-size: 14px;
+  line-height: 0;
   font-height: 21px;
   padding-top: 27px;
   padding-left: 30px;
 }
 .hotels-button-actions {
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -909,17 +933,17 @@ input.booking-calendar-select:hover {
 .stars-raiting1 ul {
   text-align: right;
   margin-left: auto;
-  margin-left: 38.4em;
+  margin-left: 36.0em;
 }
 .stars-raiting2 ul {
   text-align: right;
   margin-left: auto;
-  margin-left: 41.8em;
+  margin-left: 39.4em;
 }
 .stars-raiting3 ul {
   text-align: right;
   margin-left: auto;
-  margin-left: 40.3em;
+  margin-left: 37.3em;
 }
 /* ФУТЕР */
 .main-footer {
