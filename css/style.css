@@ -503,6 +503,12 @@ input.booking-calendar-select:hover {
 .catalog-main {
     margin-top: -14px;
 }
+.upp-btns p {
+  font-size: 0px;
+}
+.down-btns p {
+  font-size: 0px;
+}
 .filter {
   width: 100%;
   color: #ffffff;

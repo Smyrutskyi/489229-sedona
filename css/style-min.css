@@ -83,6 +83,8 @@ input.booking-calendar-select:hover{ background:#ebebeb;  border:2px solid #ebeb
 .search-btn1:active{ background:#5496bd;  color:#629fc2}
 
 .catalog-main{    margin-top:-14px}
+.upp-btns p{  font-size:0px}
+.down-btns p{  font-size:0px}
 .filter{  width:100%;   color:#fff;   background:#4b769e url("../img/hotels-back.jpg") no-repeat 50% 20%}
 .filter input[type="checkbox"]{  display:none}
 .filter h2{  margin-bottom:25px;   font-size:16px}
