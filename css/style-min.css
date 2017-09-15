@@ -2,11 +2,11 @@ body{font-weight:normal; font-size:14px;  line-height:normal; font-family:"PT Sa
 .wrapper{ position:relative;  width:1200px;  margin-left:auto;  margin-right:auto;  background-color:#fff;  box-shadow:0 -5px 9px 2px #dbdbdb}
 a{ text-decoration:none}
 
-.main-header{ position:relative;  margin:0;  padding:0;  font-size:0;  min-height:68px}
+.main-header{ position:relative;  margin:0;  padding:0;  font-size:0;  min-height:70px}
 .main-navigation ul{ margin:0;  padding:0;  padding-top:17px;  padding-right:6%;  padding-bottom:19px;  padding-left:6%;  font-size:0}
 .main-navigation li{ display:inline-block;  width:20%;  font-size:14px;  vertical-align:top}
 .main-navigation a{ display:block;  color:#000;  font-weight:bold;  text-decoration:none}
-.two-nav{ padding-left:27px}
+.two-nav{ padding-left:29px}
 .three-nav{padding-left:150px}
 .for-nav{ padding-left:30px}
 .main-navigation a:hover{ color:#81b3d2}
@@ -21,11 +21,11 @@ a{ text-decoration:none}
 .features p{  font-size:14px;   font-height:26px;   color:#000;   margin-top:-8px}
 .features h1{  font-size:21px;   font-height:26px;   margin-bottom:40px}
 .container{  margin-top:-14px;   text-align:center}
-.block-features1{  width:1200px;   min-height:256px;   display:-webkit-box;   display:-ms-flexbox;   display:-webkit-flex;   display:flex;   margin-top:-9px}
-.features-hotels-one{  line-height:25px;   background-color:#81b3d2;   color:#fff;   min-height:256px;   width:400px;   flex-direction:row}
+.block-features1{  width:1200px;   height:253px;   max-height:100%;   display:-webkit-box;   display:-ms-flexbox;   display:-webkit-flex;   margin-top:-9px}
+.features-hotels-one{  line-height:25px;   background-color:#81b3d2;   color:#fff;   min-height:256px;   width:400px}
 .align-hotels-features{  width:283px;   min-height:153px;   margin-left:58px;   margin-top:48px;   margin-right:0px;   margin-bottom:0px}
 .align-features-second{  width:309px;   min-height:147px;   margin-left:47px;   margin-top:47px;   margin-right:0px;   margin-bottom:0px}
-.icon-features{  margin-top:56px;   width:1200px;   min-height:330px;   overflow:auto;   display:-webkit-box;   display:-ms-flexbox;   display:-webkit-flex;   display:flex}
+.icon-features{  margin-top:62px;   width:1200px;   min-height:330px;   overflow:auto;   display:-webkit-box;   display:-ms-flexbox;   display:-webkit-flex;   display:flex}
 .house{  min-height:330px;   width:400px;   flex-direction:row;   line-height:26px}
 .canyon-cut{  display:-webkit-box;   display:-ms-flexbox;   display:-webkit-flex;   display:flex;   flex-direction:row}
 .features-hotels-second{  line-height:27px;   background-color:#81b3d2;   color:#fff;   min-height:256px;   width:400px;   flex-direction:row}
